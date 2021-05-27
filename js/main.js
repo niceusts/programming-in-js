@@ -1,4 +1,4 @@
-function validarIdade(idade) {
+/*function validarIdade(idade) {
     var validar;
     if (idade >= 18) {
         validar = true;
@@ -9,7 +9,7 @@ function validarIdade(idade) {
 }
 var idade = prompt("qual sua idade?");
 console.log(validarIdade(idade));
-
+*/
 /*function soma(n1, n2) {
     return n1 + n2;
 }
