@@ -1,8 +1,9 @@
 function clicou() {
-    document.getElementById("agradecimento"). innerHTML = "<b>obrigado por clicar</b>"; //injeta o texto
+    document.getElementById("agradecimento").innerHTML = "<b>obrigado por clicar</b>"; //injeta o texto
     //console.log( document.getElementById("agradecimento"));
     //alert("obrigado por clicar");
 }
+
 function redirecionar() {
     //window.open("https://globoplay.globo.com/"); ABRE EM OUTRA JANELA
     //window.location.href = "https://globoplay.globo.com/"; ABRE NA MESMA
@@ -20,6 +21,13 @@ function voltar(element) {
 
 }
 
+function load() {
+    alert("pagina carregada")
+}
+
+function funcaoChange(elemento) {
+    console.log(elemento.value);
+}
 /*function validarIdade(idade) {
     var validar;
     if (idade >= 18) {
