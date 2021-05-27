@@ -1,3 +1,25 @@
+function clicou() {
+    document.getElementById("agradecimento"). innerHTML = "<b>obrigado por clicar</b>"; //injeta o texto
+    //console.log( document.getElementById("agradecimento"));
+    //alert("obrigado por clicar");
+}
+function redirecionar() {
+    //window.open("https://globoplay.globo.com/"); ABRE EM OUTRA JANELA
+    //window.location.href = "https://globoplay.globo.com/"; ABRE NA MESMA
+}
+
+function trocar(element) {
+    //document.getElementById("mousemove").innerHTML = "obrigado por passar o mouse";
+    //alert("trocar texto");
+    element.innerHTML = "Obrigado por passar o mouse";
+}
+
+function voltar(element) {
+    //document.getElementById("mousemove").innerHTML = "Passe o mouse aqui";
+    element.innerHTML = "Passe o mouse aqui";
+
+}
+
 /*function validarIdade(idade) {
     var validar;
     if (idade >= 18) {
@@ -10,9 +32,13 @@
 var idade = prompt("qual sua idade?");
 console.log(validarIdade(idade));
 */
-/*function soma(n1, n2) {
+/*
+var n1 = 10;
+var n2 = 15;
+function soma(n1, n2) {
     return n1 + n2;
 }
+alert(soma(n1, n2));
 
 function setReplace(frase, nome, novo_nome) {
     return frase.replace(nome, novo_nome);
